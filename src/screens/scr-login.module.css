@@ -16,18 +16,22 @@
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 8px;
-  color: #1B4381;
+  color: #275591;
 }
 
 .welcomeSubtitle {
   font-size: 16px;
   margin-bottom: 16px;
   color: #5c5c5c;
+  padding: 0 5rem;
+  text-align: center;
 }
 
 .loginForm {
+    /* border: 1px solid #cc; */
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 .loginForm p {
@@ -45,6 +49,7 @@
   background: #f5f5f5;
   padding: 0 8px;
   height: 3rem;
+  border: 1px solid #7c92f1;
 }
 
 .inputContainer img {
@@ -62,10 +67,29 @@
   /* border-radius: 20px; */
 }
 
+.loginButton {
+  background-color: #2C6AC9;
+  color: white;
+  border: none;
+  height: 2.75rem;
+  align-self: center;
+  width: 70%;
+  border-radius: 20px;
+  /* padding: 10px; */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
 .forgotPassword {
   color: #2C6AC9;
   margin-bottom: 12px;
   text-align: right;
+  font-size: small;
+  font-weight: bold;
 }
 
 .noAccount {
@@ -77,4 +101,6 @@
   display: inline-block;
   margin-top: 4px;
   text-align: center;
+  color: white;
+  font-weight: bold;
 }
