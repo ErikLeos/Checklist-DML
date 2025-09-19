@@ -1,0 +1,80 @@
+*:focus{
+  outline: none;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #FFFFFF;
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 25%, rgb(105, 165, 255) 100%);
+}
+
+.welcomeTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1B4381;
+}
+
+.welcomeSubtitle {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #5c5c5c;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm p {
+  color: #2C6AC9;
+  font-weight: bolder;
+  margin: 8px 0 4px;
+  margin-left: 12px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  padding: 0 8px;
+  height: 3rem;
+}
+
+.inputContainer img {
+  margin-left: 12px;
+  margin-right: 8px;
+}
+
+.inputContainer input {
+  /* padding: 8px; */
+  /* margin-bottom: 12px; */
+  background-color: transparent;
+  border: none;
+  /* border: 1px solid #ccc; */
+  /* height: 3rem; */
+  /* border-radius: 20px; */
+}
+
+.forgotPassword {
+  color: #2C6AC9;
+  margin-bottom: 12px;
+  text-align: right;
+}
+
+.noAccount {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.createAccount {
+  display: inline-block;
+  margin-top: 4px;
+  text-align: center;
+}
