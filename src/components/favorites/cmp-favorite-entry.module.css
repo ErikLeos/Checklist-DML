@@ -1,0 +1,21 @@
+.mainContainer {
+  background-color: #E92E2E;
+  min-width: 112px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.optionsBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+  font-size: 14px;
+  min-height: 70px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* More colors on Figma: E92E2E, E9AB00, 3A2EE9 */

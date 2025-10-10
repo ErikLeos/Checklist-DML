@@ -1,0 +1,25 @@
+.mainContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 35px;
+  border-bottom: 1px solid #D0D0D0;
+}
+
+.mainContainer > * {
+  height: min-content;
+}
+
+.title{
+
+}
+
+.subtitle{
+  margin-left: auto;
+  font-size: small;
+  color: rgb(141, 141, 141);
+}
+
+.options{
+  margin: 0 10px;
+}
