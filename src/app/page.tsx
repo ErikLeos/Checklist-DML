@@ -3,6 +3,6 @@ import { ScrMain } from "@/screens/main/scr-main";
 
 export default function Home() {
   return (
-    <ScrMain />
+    <ScrLogIn />
   );
 }

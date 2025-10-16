@@ -1,19 +1,30 @@
+"use client";
+
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import styles from "./scr-login.module.css";
 
 export function ScrLogIn() {
+  const router = useRouter();
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    // TODO: add real auth here
+    router.push('/main');
+  }
+
   return(
     <div className={styles.loginContainer}>
-      <Image
+      {/* <Image
         src="/Cat.png"
         alt="Login Cat"
         className={styles.loginCat}
         width={100}
         height={100}
-      />
+      /> */}
       <h1 className={styles.welcomeTitle}>Bienvenido</h1>
       <h2 className={styles.welcomeSubtitle}>Inicia sesion para empezar con tus deberes</h2>
-      <form action="#" className={styles.loginForm}>
+      <form onSubmit={handleSubmit} className={styles.loginForm}>
         <p>Correo Electronico</p>
         <div className={styles.inputContainer}>
           <Image src="/file.svg" width={24} height={24} alt="File Icon" />
